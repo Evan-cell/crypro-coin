@@ -17,14 +17,14 @@ function Navbar() {
             <Menu.Item icon={<HomeOutlined/>}>
                 <Link to="/"></Link>
             </Menu.Item>
-            <Menu.Item icon={<HomeOutlined/>}>
-                <Link to="/"></Link>
+            <Menu.Item icon={<FundOutlined/>}>
+                <Link to="/cryptocurrencies"></Link>
             </Menu.Item>
-            <Menu.Item icon={<HomeOutlined/>}>
-                <Link to="/"></Link>
+            <Menu.Item icon={<MoneyCollectOutlined/>}>
+                <Link to="/exchanges"></Link>
             </Menu.Item>
-            <Menu.Item icon={<HomeOutlined/>}>
-                <Link to="/"></Link>
+            <Menu.Item icon={<BulbOutlined/>}>
+                <Link to="/news"></Link>
             </Menu.Item>
         </Menu>
     </div>
