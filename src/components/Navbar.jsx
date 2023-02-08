@@ -15,16 +15,16 @@ function Navbar() {
         </div>
         <Menu theme='dark'>
             <Menu.Item icon={<HomeOutlined/>}>
-                <Link to="/"></Link>
+                <Link to="/">Home</Link>
             </Menu.Item>
             <Menu.Item icon={<FundOutlined/>}>
-                <Link to="/cryptocurrencies"></Link>
+                <Link to="/cryptocurrencies">Cryptocurrencies</Link>
             </Menu.Item>
             <Menu.Item icon={<MoneyCollectOutlined/>}>
-                <Link to="/exchanges"></Link>
+                <Link to="/exchanges">exchanges</Link>
             </Menu.Item>
             <Menu.Item icon={<BulbOutlined/>}>
-                <Link to="/news"></Link>
+                <Link to="/news">news</Link>
             </Menu.Item>
         </Menu>
     </div>
